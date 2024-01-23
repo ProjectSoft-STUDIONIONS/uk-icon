@@ -1,0 +1,16 @@
+{
+	"name": "uikit-icon",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"font": "svgtofont --sources ./svg --output ./font --fontName uk-icon",
+		"build": "node index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"svgtofont": "^4.1.1"
+	}
+}
