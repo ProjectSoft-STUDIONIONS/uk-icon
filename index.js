@@ -194,7 +194,7 @@ svgtofont({
 	emptyDist: true,
 	styleTemplates: "templates/styles",
 	css: {
-		cssPath: "font/",
+		cssPath: "../font/",
 		fontSize: "initial"
 	},
 	startUnicode: 0xea01,
