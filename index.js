@@ -194,7 +194,7 @@ svgtofont({
 	emptyDist: true,
 	styleTemplates: "templates/styles",
 	css: {
-		cssPath: "/font/",
+		cssPath: "font/",
 		fontSize: "initial"
 	},
 	startUnicode: 0xea01,
@@ -204,10 +204,10 @@ svgtofont({
 	},
 	website: {
 		template: path.join(process.cwd(), "templates/html", "template.ejs"),
-		cssPath: "/font/",
+		cssPath: "font/",
 		version: "1.0.0",
 		title: "UIkit",
-		fv: "/favicon.ico",
+		fv: "favicon.ico",
 		logo: path.resolve(process.cwd(), "svg", "github.svg"),
 		meta: {
 			description: "Икоки UIkit",

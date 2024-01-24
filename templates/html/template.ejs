@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title><%=_title%></title>
-		<base href="/">
+		<base href="">
 		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"><%if (meta && Object.keys(meta).length > 0) { Object.keys(meta).forEach((metaName) => { %> 
 		<meta name="<%=metaName%>" content="<%=meta[metaName]%>"><%})}%><%if(fv) {%>
 		<link rel="icon" type="image/x-icon" href="<%=fv%>"><%}%><%if(_type === 'font-class' && _link) {%>
