@@ -218,7 +218,7 @@ svgtofont({
 		links: [
 			{
 				title: "GitHub",
-				url: "https://github.com/ProjectSoft-STUDIONIONS/uk-iconS"
+				url: "https://github.com/ProjectSoft-STUDIONIONS/uk-icon"
 			},
 			{
 				title: "Font Class",
